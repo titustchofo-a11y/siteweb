@@ -1,0 +1,103 @@
+\documentclass[12pt,a4paper,sans]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[margin=1cm]{geometry} 
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+
+% --- Couleurs et Styles ---
+\definecolor{darkblue}{RGB}{0, 51, 102}
+\definecolor{iconpink}{RGB}{219, 58, 115} 
+\hypersetup{colorlinks=true, urlcolor=darkblue}
+
+% Configuration des listes
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=1pt, parsep=1pt}
+
+% Traits horizontaux entre les rubriques
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.8ex}{1.2ex}
+
+% Commande pour les icônes colorées
+\newcommand{\myicon}[1]{\textcolor{iconpink}{#1}}
+
+\begin{document}
+\pagestyle{empty}
+
+% --- En-tête ---
+\begin{center}
+    {\huge \textbf{Titus TCHOFO}} \\
+    \vspace{6pt}
+    \normalsize
+    \myicon{\faMapMarkerAlt} 11 Rue de Saint-Brieuc, 29200 Brest \\
+    \vspace{2pt}
+    \myicon{\faPhone*} +33 7 80 27 86 74 \ | \ \myicon{\faEnvelope} \href{mailto:titustchofo@gmail.com}{titustchofo@gmail.com} \\
+    \myicon{\faCar} Permis B \\
+    \vspace{8pt}
+    \textbf{\Large Élève ingénieur en mécatronique} \\
+    \textbf{\large Recherche alternance 24 mois} \\
+    {\small Énergie | Robotique | Industrie}
+\end{center}
+
+% --- Profil ---
+\section*{Profil}
+\noindent \small Étudiant en première année du cycle ingénieur, je recherche une alternance en robotique, systèmes embarqués et automatisation industrielle. Motivé et rigoureux, je souhaite mobiliser mes compétences en programmation et contrôle des systèmes sur des projets industriels concrets.
+
+% --- Compétences Techniques ---
+\section*{Compétences Techniques}
+\begin{itemize}
+    \item \textbf{Programmation :} Langages C, C++, Python, R.
+    \item \textbf{Automatique :} Régulation Proportionnel Intégral Dérivé (PID), asservissement.
+    \item \textbf{Systèmes Embarqués :} Microcontrôleurs, simulation MATLAB et LabVIEW.
+    \item \textbf{Conception :} SolidWorks, AutoCAD, lecture de schémas électriques.
+    \item \textbf{Diagnostic :} Outils professionnels (Delphi, Maxisys) et maintenance corrective.
+\end{itemize}
+
+% --- Formation ---
+\section*{Formation Scolaire}
+\noindent \textbf{Institut Supérieur de l'Électronique et du Numérique (ISEN) -- Brest} \hfill \textbf{2024 -- Présent} \\
+\small - Troisième année du cycle ingénieur : Électrotechnique et Systèmes Embarqués. \\
+- Deuxième année du cycle préparatoire intégré d'ingénieur généraliste.
+
+\vspace{0.2cm}
+\noindent \textbf{Institut Universitaire de Technologie (IUT) -- Douala, Cameroun} \hfill \textbf{2023 -- 2024} \\
+\small- Licence de Technologie : Conception Mécatronique.
+
+\vspace{0.2cm}
+\noindent \textbf{Diplômes Précédents} \\
+\small \textbf{- Brevet de Technicien Supérieur} en Mécatronique (IUG, Douala) \\
+\small \textbf{- Baccalauréat} en Construction Mécanique et Maintenance Automobile.
+
+% --- Expérience Professionnelle ---
+\section*{Expérience Professionnelle}
+\noindent \textbf{Saveol -- Stage Ouvrier (Emballage Automatisé)} \hfill \textbf{2025} \\
+\small - Maintenance des lignes hydropneumatiques et analyse des stratégies d'asservissement0.\\ - Participation à l'optimisation des processus industriels de production.
+
+\vspace{0.2cm}
+\noindent \textbf{CAMY TOYOTA -- Stage en Électronique Automobile} \hfill \textbf{2022 -- 2023} \\
+\small - Diagnostic et réparation des systèmes de démarrage et de gestion moteur.
+
+\vspace{0.2cm}
+\noindent \textbf{Brasseries du Cameroun -- Maintenance Industrielle} \hfill \textbf{2021} \\
+\small - Réparation préventive des machines et rebobinage de machines électriques tournantes.
+
+% --- Projets Académiques ---
+\section*{Projets Académiques}
+\noindent \textbf{ Régulation thermique intelligente (C / Python)} \hfill \textbf{2026} \\
+\small - Développement d'une régulation PID et création d'une interface de supervision graphique.
+
+\vspace{0.2cm}
+\noindent \textbf{Simulation Robotique (Python)} \hfill \textbf{2025} \\
+\small- Conception d'un simulateur pour systèmes automatisés et modélisation de comportements.
+
+% --- Informations Complémentaires ---
+\section*{Informations Complémentaires}
+\noindent \small \textbf{Langues :} Français (natif), Anglais (B1 - en progression).\\ \textbf{Certification :} Maintenance automobile. \\
+\noindent \small \textbf{Engagement :} Coach Sportif Bénévole - encadrement, technique et motivation.
+
+\end{document}
